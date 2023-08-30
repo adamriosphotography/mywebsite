@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="rates.html">Rates</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="section">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>I have an in-home photography studio in downtown Albuquerque where most of the magic happens. Having full control of my environment (lighting, background, props, etc.) allows me to do my best work. That said, there's so much beauty in New Mexico and I'm always up for an outdoor shoot!</p>
+            <p>I've been doing photography for about 4 years and have taken pictures of everything under the sun. I don't like to limit myself. Why should I? There's so much meaning and beauty happening all the time and everywhere and it all brings me joy. Capturing the love and trust in an engagement shoot one day, then seeing someone's dreams sparkling in their eyes in a branding session the next gives me life.</p>
+            <p>Above all, I want to create a comfortable environment for my clients. Once relaxed, the nerves and self-consciousness melts away and the real emotions shine through in all their glory.</p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; 2023 Adam Rios Photography. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+            } else {
+                navbar.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

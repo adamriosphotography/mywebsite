@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="rates.html">Rates</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h2>Available Packages and Rates</h2>
+    </header>
+
+    <section class="portfolio-gallery">
+    <figure class="portfolio-item">
+        
+        <figcaption>PORTRAITS</figcaption>
+        
+        <div>
+            <p><strong>$200</strong></p>
+            <p>I offer a variety of photoshoots under the Standard Portrait package. These include, but aren't limited to, engagements, maternity, couples, solo, family, and newborn. My aim is to capture moments of genuine emotion in the most aesthetic way.</p>
+            <ul class="centered-list">
+                <li>60 minutes</li>
+                <li>15-30 edited digital images</li>
+                <li>optional 8x10 framed print</li>
+                <li>14 day delivery</li>
+                <li>optional proofing</li>
+                <li>$50 deposit</li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a class="btn" href="portfolio/portraits.html">Examples of my Portrait Work</a>
+        </div>
+   
+        
+    </figure>
+    <figure class="portfolio-item">
+        <figcaption>HEADSHOTS</figcaption>
+        <div>
+            <p><strong>$150</strong></p>
+            <p>The headshot package is designed for models, actors/actresses, and comedians who need high-quality photos that capture their appearance authentically and reflect the full range of their personality.</p>
+            <ul class="centered-list">
+                <li>30 minutes</li>
+                <li>10-15 digital images with minimal retouching</li>
+                <li>7 day delivery</li>
+                <li>optional proofing</li>
+                <li>$50 deposit</li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a class="btn" href="portfolio/headshots.html">Examples of my Headshot Work</a>
+        </div>
+    
+    </figure>
+    <figure class="portfolio-item">
+        <figcaption>EVENTS</figcaption>
+        <div>
+            <p><strong>$200</strong></p>
+            <p>Want the magic of your event captured without having to remember to pull out your phone constantly? I'll take care of it. Working a room silently and translating the energy into images is what I do best.</p>
+            <ul class="centered-list">
+                <li>2 hours of coverage</li>
+                <li>+$50 for each additional hour</li>
+                <li>50+ edited digital images</li>
+                <li>same day preview gallery</li>
+                <li>14 day delivery</li>
+                <li>optional proofing</li>
+                <li>$50 deposit</li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a class="btn" href="portfolio/events.html">Examples of my Event Work</a>
+        </div>
+    
+    </figure>
+    <figure class="portfolio-item">
+        <figcaption>WEDDINGS</figcaption>
+       
+        <div>
+            <p><strong>$1,500</strong></p>
+            <p>I put a strong emphasis on capturing the big, emotional moments on your special day and pride myself on being able to capture those moments beautifully. The wedding package varies depending on the needs of the couple, but a standard session will include:</p>
+            <ul class="centered-list">
+                <li>6 hours of coverage</li>
+                <li>100+ edited digital images</li>
+                <li>3 - 8x10 framed prints</li>
+                <li>21 day delivery</li>
+                <li>optional proofing</li>
+                <li>$500 deposit</li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a class="btn" href="portfolio/weddings.html">Examples of my Wedding Work</a>
+        </div>
+      
+    </figure>
+</section>
+
+
+    <footer>
+        <p>&copy; 2023 Adam Rios Photography. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+            } else {
+                navbar.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

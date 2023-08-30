@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="rates.html">Rates</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="section">
+        
+        <div class="bio">
+            <h2>Client Reviews</h2>
+            <p>Here is what some of my clients have had to say about working with me!</a></p>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <img class="review-image" src="images/ashley-review.jpg" alt="Customer Photo">
+        <div class="review-text">
+            <p><i>"We are in love with our pregnancy announcement photos Adam did for us! They came out so beautiful!"</i></p>
+            <p><strong>- Ashley G.</strong></p>
+        </div>
+    </div>
+    <div class="review-container">
+        <img class="review-image" src="images/erica-review.jpg" alt="Customer Photo">
+        <div class="review-text">
+            <p><i>"Adam made our engagement pictures a dream come true! He was professional and made us feel very comfortable in front of the camera! He was quick to respond when messaging and really knows his craft. The turn around time was a week and you can tell during that period of time he went above and beyond when editing the photos. I’d recommend this young man to anyone looking for beautiful photos! Here are a few of the gorgeous photos he took!"</i></p>
+            <p><strong>- Erica A.</strong></p>
+        </div>
+    </div>
+    <div class="review-container">
+        <img class="review-image" src="images/michaela-review.jpg" alt="Customer Photo">
+        <div class="review-text">
+            <p><i>"I hired Adam to take professional headshot photos. I’m not a person who is naturally comfortable having my photo taken, so I was nervous about this experience, especially as a woman meeting a male stranger. Let me tell you, Adam totally put me at ease! He gives off safe vibes, is soft spoken and immediately put me at ease. His gentle approach and suggestions for poses were easy to follow. I highly recommend him and am thrilled with the results (attaching a couple photos for you to see the quality of his work). I would hire him again in a heartbeat!"</i></p>
+            <p><strong>- Michaela N.</strong></p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; 2023 Adam Rios Photography. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+            } else {
+                navbar.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

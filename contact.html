@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="rates.html">Rates</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="section">
+        
+        <div class="bio">
+            <h2>Ready to Book?</h2>
+            <p>Reach out to me on <a href="https://www.instagram.com/adamriosphotography">Instagram</a> at @adamriosphotography, send me an <a href="mailto:adam@adamriosphotography.com">email</a>, or text/call at (505) 226-6481 to schedule a session.</a></p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; 2023 Adam Rios Photography. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+            } else {
+                navbar.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

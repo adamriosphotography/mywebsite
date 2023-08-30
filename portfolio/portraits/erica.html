@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Photography Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
+        <ul id="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Me</a></li>
+            <li><a href="/rates.html">Rates</a></li>
+            <li><a href="/testimonials.html">Testimonials</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h2>ERICA</h2>
+    </header>
+
+
+    <section class="portfolio-gallery">
+        <figure class="portfolio-item">
+            <a href="/images/erica/1.jpg"><img src="/images/erica/1-2.jpg" alt="Description of image 1"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/2.jpg"><img src="/images/erica/2-2.jpg" alt="Description of image 2"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/3.jpg"><img src="/images/erica/3-2.jpg" alt="Description of image 3"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/4.jpg"><img src="/images/erica/4-2.jpg" alt="Description of image 4"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/5.jpg"><img src="/images/erica/5-2.jpg" alt="Description of image 5"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/6.jpg"><img src="/images/erica/6-2.jpg" alt="Description of image 6"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/7.jpg"><img src="/images/erica/7-2.jpg" alt="Description of image 7"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/8.jpg"><img src="/images/erica/8-2.jpg" alt="Description of image 8"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/9.jpg"><img src="/images/erica/9-2.jpg" alt="Description of image 9"></a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="/images/erica/10.jpg"><img src="/images/erica/10-2.jpg" alt="Description of image 10"></a>
+        </figure>
+    </section>
+    
+    
+    
+
+
+    <footer>
+        <p>&copy; 2023 Adam Rios Photography. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+            } else {
+                navbar.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
