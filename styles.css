@@ -166,6 +166,8 @@ footer {
     border-radius: 5px;
     font-weight: 400;
     font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .btn-2 {
@@ -178,6 +180,8 @@ footer {
     border-radius: 5px;
     font-weight: 400;
     font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .centered-list {
